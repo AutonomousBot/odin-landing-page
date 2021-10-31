@@ -94,4 +94,19 @@ a, .sub-text {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
+  margin-bottom: 48px;
+}
+
+.characters {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  text-align: center;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: solid 3px #3882f6;
+  border-radius: 12px;
 }
