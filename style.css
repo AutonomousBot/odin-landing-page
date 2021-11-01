@@ -23,8 +23,8 @@ body {
 }
 
 .logo {
-  height: auto;
-  width: 40px;
+  height: 80px;
+  width: 80px;
 }
 
 ul, li {
@@ -63,7 +63,7 @@ a, .sub-text {
 }
 
 .sub-text {
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .sign-up {
@@ -85,7 +85,7 @@ a, .sub-text {
 /* middle info */
 
 .middle-info {
-  padding: 24px 120px 93px;
+  padding: 24px 120px 60px;
 }
 
 .info-header {
@@ -142,7 +142,7 @@ a, .sub-text {
   display: flex;
   justify-content: space-between;
   background-color: #3882f6;
-  margin: 120px;
+  margin: 100px;
   border-radius: 12px;
   padding: 48px 93px 48px;
 }
@@ -171,4 +171,16 @@ a, .sub-text {
 
 .read-button:hover {
   cursor: pointer;
+}
+
+/* call to action section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 30px 15px 30px;
 }
